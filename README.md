@@ -12,3 +12,4 @@ Para inciar a aplicação basta executar esse comando:
 ```bash
  yarn dev
 ```
+E abrir no navegador usando http://localhost:3000
