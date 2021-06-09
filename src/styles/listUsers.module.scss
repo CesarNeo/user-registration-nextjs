@@ -2,7 +2,7 @@
     width: 100%;
 
     .listUsersContent {
-        max-width: 1194px;
+        max-width: 1280px;
         margin: 7rem auto 3rem;
         padding: 0 2rem;
 
@@ -14,7 +14,7 @@
             width: 100%;
 
             th {
-                padding: 0.75rem 7rem;
+                padding: 0.75rem 1.5rem;
                 border-bottom: 1px solid var(--color-gray);
                 font: bold 1rem Roboto, sans-serif;
                 text-align: center;
@@ -46,10 +46,11 @@
             border-radius: 0.47rem;
 
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-columns: repeat(6, 1fr);
             align-items: center;
 
             div {
+                padding: 0.6rem;
                 border-right: 1px solid var(--color-gray);
             }
 
